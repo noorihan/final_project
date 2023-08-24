@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./css/hamburgers.min.css">
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+      <!-- Navbar Starts Here -->
+      <nav class="navbar navbar-expand-lg d-none d-lg-block">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/Logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 mainMenu">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shops
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">A</a></li>
+                  <li><a class="dropdown-item" href="#">B</a></li>
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">A</a></li>
+                  <li><a class="dropdown-item" href="#">B</a></li>
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Features
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">A</a></li>
+                  <li><a class="dropdown-item" href="#">B</a></li>
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blogs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">A</a></li>
+                  <li><a class="dropdown-item" href="#">B</a></li>
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
+              </li>
+              </ul>
+                    
+                  <!-- Navbar buttons -->
+              <div class="buttonGroup">
+                <ul>
+                    <li>
+                        <span><iconify-icon icon="bx:search" rotate="90deg"></iconify-icon></span>
+                    </li>
+                        <li>
+                          <a href="#"><iconify-icon icon="uiw:user"></iconify-icon></a>
+                        </li>
+                       <li><a href="#"> <iconify-icon icon="mdi:favourite-border"></iconify-icon></a></li>
+                       <li> 
+                       <a href="#"><iconify-icon icon="ion:bag-outline"></iconify-icon></iconify-icon>
+                        <div class="cartNo">
+                          0
+                        </div>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+             
+           
+          </div>
+        </div>
+      </nav>
+    <!-- Sm Navbar starts -->
+   
+
+    <nav class="navbar navbar_sm d-lg-none d-md-none d-sm-block">
+      <div class="socialsSm">
+        
+          <a href="#"> <iconify-icon icon="ant-design:facebook-filled"></iconify-icon> </a>
+        <a href="#"> <iconify-icon icon="mdi:instagram"></iconify-icon> </a>
+        <a href="#"> <iconify-icon icon="mdi:twitter"></iconify-icon> </a>
+        <a href="#"> <iconify-icon icon="mdi:pinterest"></iconify-icon> </a>
+        
+      </div>
+      <div class="container">
+
+        <div class="row w-100 align-items-center">
+          <div class="col-3">
+            <button class="hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>  
+          </div>
+          <div class="col-6 text-center">
+            <img src="./images/Logo.png" alt="">
+          </div>
+          <div class="col-3 text-end">
+            <div class="buttonGroup">
+              <ul>
+                     <li> 
+                     <a href="#"><iconify-icon icon="ion:bag-outline"></iconify-icon></iconify-icon>
+                      <div class="cartNo">
+                        0
+                      </div>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    
+   <!-- Offcanvas starts here -->
+    
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <img src="./images/Logo.png" alt="" style="height: 50px;">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div>
+        <form action="#">
+          
+          <input type="search" style="width: 100%;" placeholder="Search for products" >
+        </form>
+      </div>
+      <div class="offcanvas-body">
+        
+        <!-- NAV TAB STARTS HERE-->
+    <div class="NavTab">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item col-6" role="presentation">
+          <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="true">Menu</button>
+        </li>
+        <li class="nav-item col-6" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-catagory" type="button" role="tab" aria-controls="pills-catagory" aria-selected="false">Catagories</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active tabMenu" id="pills-menu" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="pills-catagory" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <div class="tab-pane fade show active tabMenu" id="pills-menu" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <ul>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Profile</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- NAV TAB ENDS HERE-->
+      </div>
+      
+      
+      </div>
+    <!-- Offcanvas Ends here -->
+      <!-- Sm Navbar ends -->
+      <!-- Navbar Ends Here-->
+    
+    <section id="about">
+      <div class="container h-100">
+        <div class="about_cnt align-items-center h-100">
+          <h2 align='center'>About Us</h2>
+        <p align="center">Home  /  About Us</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="LearnAbtAytor">
+      <div class="container">
+        <div class="Learn_bg" style="background-image: url(./images/BG\ \(1\).png);">
+          <div class="row">
+            <div class="learn_img col-6">
+              <img src="./images/Group 35.png" alt="">
+            </div>
+            <div class="learn_cnt col-6">
+              <h3>Learn About Aetor Shop</h3>
+              <p class="col-10">Interactively underwhelm effective relationships whereas team driven paradigms. 
+                Uniquely impact impactful meta-services vis -a-vis fully tested best practices. Appropriately e-enable fully.</p>
+                <ul>
+                  <li> <span><iconify-icon icon="mdi:tick-circle"></iconify-icon></span> Assertively customize robust potentialities and economical </li>
+                  <li> <span><iconify-icon icon="mdi:tick-circle"></iconify-icon></span>  Seamlessly disintermediate distributed intellectual capital. </li>
+                  <li> <span><iconify-icon icon="mdi:tick-circle"></iconify-icon></span>  Credibly enable B2C potentialities after strategic. </li>
+                </ul>
+                <a href="#">Discover More <span><iconify-icon icon="ph:arrow-right-thin"></iconify-icon></span></a> 
+            </div>
+            
+          </div>
+
+          
+    
+          </div>
+      </div>
+    </section>
+
+    <!-- Stat Section Starts -->
+    <section id="stat">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="./images/package 1 (Traced).png" alt="">
+            <h3>22.3k</h3>
+            <p>Products for sale</p>
+          </li>
+
+          <li>
+            <img src="./images/shop 1 (Traced).png" alt="">
+            <h3>14.6k</h3>
+            <p>Sellers active on shop</p>
+          </li>
+
+          <li>
+            <img src="./images/shopping-bag 1 (Traced).png" alt="">
+            <h3>75.9k</h3>
+            <p>Customer active on store</p>
+          </li>
+
+          <li>
+            <img src="./images/money 1 (Traced).png" alt="">
+            <h3>35.5k</h3>
+            <p>Annual gross sales</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Stat Section Ends -->
+
+    <!-- Our Story Starts -->
+<section id="ourStory">
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="ourStory_text col-lg-5">
+        
+        <h3 class="col-10">Our Story </h3>
+        <p class="col-10">
+          Synergistically pontificate focused services whereas intuitive leadership. Competently predominate ubiquitous services rather than client-centric scenarios. Distinctively mesh B2C benefits for superior customer service. 
+          Interactively e-enable inexpensive total linkage without quality materials. Phosfluorescently negotiate.
+        </p>
+        <p>Professionally exploit user-centric technology for seamless solutions. Objectively morph unique strategic theme areas without cross functional mindshare. 
+          Synergistically aggregate adaptive functionalities rather than enterprise-wide experiences. Completely maintain.</p>
+          
+        
+      </div>
+      <div class="ourStory_vdo col-lg-7">
+        <div class="oSvdo">
+          <img src="./images/bestOfferimg.png" alt="">
+          <div class="overlay">
+           
+            <a class="ourStory-video" data-autoplay="true" data-vbtype="video" href="https://youtu.be/9lQsYBvo4lY" ><span> <iconify-icon icon="icon-park-outline:play"></iconify-icon></span>  </a>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Our Story Ends -->
+
+<!-- Customer Service Starts -->
+<section id="customerService">
+  <div class="container">
+  
+    <div class="option">
+      <ul>
+        <li class="col-3">
+          <div class="row">
+            <div class="option_img col-4">
+              <img src="./images/optimg1.png" alt="">
+            </div>
+            <div class="option_text col-8">
+              <h5>FREE SHIPING</h5>
+              <p>all orders over <span>$150</span></p>
+            </div>
+          </div>
+        </li>
+  
+        <li class="col-3">
+         <div class="row">
+          <div class="option_img col-4">
+            <img src="./images/optimg2.png" alt="">
+          </div>
+          <div class="option_text col-8">
+            <h5>QUICK PAYMENT</h5>
+            <p>100% secure payment</p>
+          </div>
+         </div>
+        </li>
+  
+        <li class="col-3">
+          <div class="row">
+            <div class="option_img col-4">
+              <img src="./images/optimg3.png" alt="">
+            </div>
+            <div class="option_text col-8">
+              <h5>FREE RETURNS</h5>
+              <p>Return money within 30 days</p>
+            </div>
+          </div>
+        </li>
+  
+        <li style="border: none;" class="col-2">
+          <div class="row">
+            <div class="option_img col-4">
+              <img src="./images/optimg4.png" alt="">
+            </div>
+            <div class="option_text col-8">
+              <h5>24/7 SUPPORT</h5>
+              <p>Quick Support</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+</section>
+<!--Customer Service Ends -->
+
+<!-- Leadership Starts here -->
+<section id="leadership">
+  <h3>Leadership Expert Team</h3>
+  <div class="container position-relative"> 
+   <div class="leaderShipSlider">
+      <!-- 1st expert Card -->
+      <div class="leadershipCard col-lg-3 col-md-6">
+        <!-- leadership image -->
+        <div class="ls_img">
+          <a href="#"><img src="./images/test1.png" alt=""></a>
+          
+        
+        </div>
+        <!-- leadership text -->
+        <div class="ls_text">
+       
+         <a href="#">
+          <h5>Michel Richard</h5>
+          <p>Founder</p>
+         </a>
+         <span>
+          <ul>
+            <li ><a href="#"> <iconify-icon icon="ant-design:facebook-filled"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:instagram"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:twitter"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:pinterest"></iconify-icon> </a></li>
+          </ul>
+         
+         </span>
+        </div>
+      </div>
+  
+  
+      <!-- 2nd product Card -->
+      <div class="leadershipCard col-lg-3 col-md-6">
+        <!-- leadership image -->
+        <div class="ls_img">
+          <a href="#"><img src="./images/test2.png" alt=""></a>
+          
+        
+        </div>
+        <!-- leadership text -->
+        <div class="ls_text">
+       
+         <a href="#">
+          <h5>Imon Hossain</h5>
+          <p>Founder</p>
+         </a>
+         <span>
+          <ul>
+            <li ><a href="#"> <iconify-icon icon="ant-design:facebook-filled"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:instagram"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:twitter"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:pinterest"></iconify-icon> </a></li>
+          </ul>
+         
+         </span>
+        </div>
+      </div>
+  
+  
+  
+      <!-- 3rd Product Card -->
+      <div class="leadershipCard col-lg-3 col-md-6">
+        <!-- leadership image -->
+        <div class="ls_img">
+          <a href="#"><img src="./images/test1.jpg" alt="" height="295px"></a>
+          
+        
+        </div>
+        <!-- leadership text -->
+        <div class="ls_text">
+       
+         <a href="#">
+          <h5>Sudjida Lufz</h5>
+          <p>Founder</p>
+         </a>
+         <span>
+          <ul>
+            <li ><a href="#"> <iconify-icon icon="ant-design:facebook-filled"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:instagram"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:twitter"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:pinterest"></iconify-icon> </a></li>
+          </ul>
+         
+         </span>
+        </div>
+      </div>
+
+     
+
+       <!-- 2nd product Card -->
+       <div class="leadershipCard col-lg-3 col-md-6">
+        <!-- leadership image -->
+        <div class="ls_img">
+          <a href="#"><img src="./images/test2.png" alt=""></a>
+          
+        
+        </div>
+        <!-- leadership text -->
+        <div class="ls_text">
+       
+         <a href="#">
+          <h5>Imon Hossain</h5>
+          <p>Founder</p>
+         </a>
+         <span>
+          <ul>
+            <li ><a href="#"> <iconify-icon icon="ant-design:facebook-filled"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:instagram"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:twitter"></iconify-icon> </a></li>
+            <li><a href="#"> <iconify-icon icon="mdi:pinterest"></iconify-icon> </a></li>
+          </ul>
+         
+         </span>
+        </div>
+      </div>
+
+        <!-- 1st expert Card -->
+        <div class="leadershipCard col-lg-3 col-md-6">
+          <!-- leadership image -->
+          <div class="ls_img">
+            <a href="#"><img src="./images/test1.png" alt=""></a>
+            
+          
+          </div>
+          <!-- leadership text -->
+          <div class="ls_text">
+         
+           <a href="#">
+            <h5>Michel Richard</h5>
+            <p>Founder</p>
+           </a>
+           <span>
+            <ul>
+              <li ><a href="#"> <iconify-icon icon="ant-design:facebook-filled"></iconify-icon> </a></li>
+              <li><a href="#"> <iconify-icon icon="mdi:instagram"></iconify-icon> </a></li>
+              <li><a href="#"> <iconify-icon icon="mdi:twitter"></iconify-icon> </a></li>
+              <li><a href="#"> <iconify-icon icon="mdi:pinterest"></iconify-icon> </a></li>
+            </ul>
+           
+           </span>
+          </div>
+        </div>
+
+
+  
+  
+  
+
+    
+  
+  
+      
+     
+   </div>
+
+   <!-- Arrows Starts here -->
+   <div class="arrows">
+    <div class="leftArrow" id="productSLiderLeftArrow">
+      <iconify-icon icon="ep:arrow-left-bold"></iconify-icon>
+    </div>
+    <div class="rightArrow" id="productSliderRightArrow">
+      <iconify-icon icon="ep:arrow-left-bold" rotate="180deg"></iconify-icon>
+    </div>
+  </div>
+   <!-- Arrows Ends Here -->
+
+
+
+  </div>
+</section>
+<!-- Leadership Ends here -->
+
+<!-- Customer Starts here -->
+<section id="customer">
+ <div class="container">
+  <div class="customer_slide" style="background-image: url(./images/Group\ 36.png);">
+    <div class="customer_cont cus_slider">
+      <div class="customer_text ">
+        <p class="col-5" style=" text-align: center; margin-left: 32%;" >Distinctively revolutionize functional sources rather than cutting-edge interfaces.
+          Appropriately productize next-generation infomediaries without interoperable e-business. Progressively empower.</p>
+       <h4>Alexzender Markos</h4>
+       <p class="paraColor">Customer</p>
+      </div>
+
+      <div class="customer_text ">
+        <p class="col-5" style=" text-align: center; margin-left: 32%;" >Distinctively revolutionize functional sources rather than cutting-edge interfaces.
+          Appropriately productize next-generation infomediaries without interoperable e-business. Progressively empower.</p>
+       <h4>Alexzender Markos</h4>
+       <p class="paraColor">Customer</p>
+      </div>
+
+      <div class="customer_text ">
+        <p class="col-5" style=" text-align: center; margin-left: 32%;" >Distinctively revolutionize functional sources rather than cutting-edge interfaces.
+          Appropriately productize next-generation infomediaries without interoperable e-business. Progressively empower.</p>
+       <h4>Alexzender Markos</h4>
+       <p class="paraColor">Customer</p>
+      </div>
+
+      <div class="customer_text ">
+        <p class="col-5" style=" text-align: center; margin-left: 32%;" >Distinctively revolutionize functional sources rather than cutting-edge interfaces.
+          Appropriately productize next-generation infomediaries without interoperable e-business. Progressively empower.</p>
+       <h4>Alexzender Markos</h4>
+       <p class="paraColor">Customer</p>
+      </div>
+
+    </div>
+
+
+  </div>
+ </div>
+</section>
+<!-- Customer Ends here -->
+<!-- PROBLEM -->
+
+<!-- Aytor Instagram Starts -->
+<section id="AytorInstagram">
+
+</section>
+<!-- Aytor Instagram Ends -->
+
+<!-- Footer Starts -->
+<footer id="Aboutfooter">
+  <div class="newsLtr">
+    <div class="row">
+  
+      <div class="newsLtr_para col-7">
+        <h3>Subscribe to Our Newsletter!</h3>
+        <p>Authoritatively morph 24/7 potentialities with error-free partnerships. Objectively engineer multimedia.</p>
+      </div>
+  
+      <div class="newsLtr_form col-5">
+        <form action="#"> <input type="text" placeholder="Enter your email..">
+          <button>Subscribe</button>
+         </form>
+    
+      </div>
+    </div>
+  
+    <hr style="width: 100%; height: 2px; color: #E0E0E0; background-color: #E0E0E0; margin-top: 26px; margin-bottom: 50px;">
+  </div>
+  
+  <div class="footer_content">
+    <div class="row">
+  
+      <div class="AytorLogo col-2">
+        <img src="./images/Logo2.png" alt="">
+        
+      </div>
+  
+  
+      <div class="myAccount col-2">
+        <h4>My Account</h4>
+        <ul>
+          <li>
+            <a href="#">> My Account</a>
+          </li>
+          <li>
+            <a href="#">> View Cart</a>
+          </li>
+          <li>
+            <a href="#">> Wishlist</a>
+          </li>
+          <li>
+            <a href="#">> Compare</a>
+          </li>
+          <li>
+            <a href="#">> New Products</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="support col-2">
+  
+        <h4>Support</h4>
+        <ul>
+          <li>
+            <a href="#">> Help</a>
+          </li>
+          <li>
+            <a href="#">> Contact Us</a>
+          </li>
+          <li>
+            <a href="#">> Feedback</a>
+          </li>
+          <li>
+            <a href="#">> Customer Service</a>
+          </li>
+          <li>
+            <a href="#">> Store Location</a>
+          </li>
+        </ul>
+  
+      </div>
+  
+      <div class="openingTime col-4">
+        <h4>Opening Time</h4>
+         <div class="week">
+          <ul>
+            <li>Mon-Tue:</li>
+            <li>Wed:</li>
+            
+            <li>Fri:</li>
+            <li>Sat:</li>
+            <li>Sun:</li>
+          </ul>
+         </div>
+         <div class="time">
+          <ul>
+            <li>8AM-10PM</li>
+            <li>8AM-7PM</li>
+            <li>7AM-12PM</li>
+            <li>9AM-8PM</li>
+            <li>Closed</li>
+          </ul>
+         </div>
+      </div>
+      <div class="contactUs col-2">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><span><iconify-icon icon="mdi:location"></iconify-icon></span> 830 Broad way, New York,NY 10003,
+            United States </li>
+          <li><span><iconify-icon icon="material-symbols:call"></iconify-icon></span> <a href="tel:+18008660286">+18008660286</a> </li>
+          <li><span><iconify-icon icon="tabler:mail-filled"></iconify-icon></span> <a href="mailto:aetor.info@gmail.com">aetor.info@gmail.com</a> 
+          <a href="mailto:info@aetor.com">info@aetor.com</a>
+          </li>
+        </ul>
+      </div>
+     
+    
+       
+    </div>
+  </div>
+  </footer>
+<!-- Footer Ends -->
+
+
+
+
+
+
+
+
+     <!-- JS link -->
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+     <script src="./js/venobox.min.js"></script>
+     <script src="./js/jquery.countdown.min.js"></script>
+                 
+     <script src="./js/app.js"></script>
+     <!-- JS link ends -->
+</body>
+</html>

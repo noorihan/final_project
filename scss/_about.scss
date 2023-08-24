@@ -1,0 +1,839 @@
+
+// About Sections Starts 
+
+#about{
+    height: 400px;
+    .about_cnt{
+         background-color: $thirdColor;
+         color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            @include md-device() {
+                font-size: 30px;
+            }
+
+            @include sm-device(){
+               font-size: 18px;
+            }
+        }
+        p{
+            font-family: $secondaryFont;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            @include md-device() {
+                font-size: 12px;
+            }
+
+            @include sm-device(){
+               font-size: 8px;
+            }
+        }
+        
+         
+    }
+}
+
+// About Section Ends
+
+//Learn About Aytor Start
+
+#LearnAbtAytor{
+    margin-top: 100px;
+    .Learn_bg{
+        background-repeat: no-repeat;
+       
+        background-size: cover;
+        height: 500px;
+        @include lg-device(){
+            height: 500px;
+        }
+        @include md-device() {
+            height: 400px
+        }
+
+        @include xsm-device(){
+           height: 200px;
+        }
+        .learn_img{
+            img{
+                width: 100%;
+                @include md-device() {
+                    width: 100%;
+                    text-align: center;
+                }
+    
+                
+            }
+            
+        }
+        .learn_cnt{
+           
+           
+            transform: translateY(30%);
+            
+            padding-left: 100px;
+            @include md-device() {
+                padding-left: 60px;
+            }
+
+            @include sm-device(){
+               padding-left: 30px;
+            }
+            
+            h3{
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 700;
+                @include md-device() {
+                    font-size: 18px;
+                }
+    
+                @include sm-device(){
+                   font-size: 8px;
+                }
+            }
+    
+            p{
+                font-family: $secondaryFont;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                @include md-device() {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+    
+                @include sm-device(){
+                   font-size: 8px;
+                   line-height: 8px;
+                }
+               
+                
+                
+            }
+            ul{
+
+                margin-bottom: 60px;
+                @include md-device() {
+                    margin-bottom: 30px;
+                }
+    
+                @include sm-device(){
+                   margin-bottom: 15px;
+                }
+                
+                li{
+                    font-family: $secondaryFont;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    margin-left: -33px;
+                    @include md-device() {
+                        font-size: 12px;
+                    }
+        
+                    @include sm-device(){
+                       font-size: 8px;
+                    }
+                    span{
+                        color: $secondaryColor;
+                    }
+    
+    
+                }
+            }
+            
+            a{
+                padding: 13px 37px;
+                font-size: 18px;
+                font-weight: 600;
+                color: white;
+                text-decoration: none;
+                
+                background-color: $secondaryColor;
+                
+                margin-top: 16px;
+                position: relative;
+                
+                @media(320px<=width<=991px){
+                    font-size: 8px;
+                    padding: 9px 25px;
+                }
+                
+                span{
+                    position: absolute;
+                    top: 16px;
+                    margin: 0 5px;
+                    font-weight: bold;
+                    @media(320px<=width<=991px){
+                        top: 9px;
+
+                    }
+                    
+                    
+                }
+            }
+          
+            
+    
+        }
+    }
+    
+}
+
+// Learn About Aytor Ends
+
+// Stat Section Starts
+#stat{
+    margin-top: 150px;
+    @include sm-md-device(){
+        margin-top: 100px;
+    }
+   
+    ul{
+        text-align: center;
+        li{
+            display: inline-block;
+            margin-left: 60px;
+            @include md-device(){
+                margin-left: 30px;
+               }
+               @include sm-device(){
+                width: 11px;
+                height: 19px;
+               }
+
+
+            img{
+                width: 42px;
+                height: 50px;
+               @include md-device(){
+                width: 22px;
+                height: 30px;
+               }
+               @include sm-device(){
+                width: 11px;
+                height: 19px;
+               }
+                }
+            h3{
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                color: $secondaryColor;
+                @include md-device(){
+                    font-size: 26px;
+                   }
+                   @include sm-device(){
+                    
+                    font-size: 16px;
+                   }
+                
+            }
+            p{
+                font-family: $secondaryFont;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                @include md-device(){
+                    font-size: 10px;
+                   }
+                   @include sm-device(){
+                    
+                    font-size: 6px;
+                   }
+
+            }
+            }
+
+        }
+    }
+
+// Stat Section Ends
+
+//Our Story Starts
+#ourStory{
+    background-color: #F1F3F4;
+    margin-top: 65px;
+    padding: 100px;
+    position: relative;
+    @include sm-md-device(){
+        padding-top: 20px;
+    }
+    .ourStory_text
+    {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+        
+        h3{
+            font-size: 36px;
+            font-weight: 700;
+            @include xsm-device(){
+                font-size: 20px;
+            }
+            
+        }
+        p{
+            font-family: Roboto;
+            font-size: 16px;
+            
+            font-weight: 400;
+        }
+
+        
+
+
+    }
+
+    .ourStory_vdo{
+        @include sm-md-device(){
+            margin-top: 10px;
+        }
+        .oSvdo{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            
+            bottom: 0;
+            @include sm-md-device() {
+                position: static;
+            top: auto;
+            right: auto;
+            width: 100%;
+            
+            bottom: auto;
+            }
+            img{
+                width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+
+            }
+            .overlay{
+                position: absolute;
+                top: 50%;
+                right: 50%;
+                transform: translateX(50%);
+                z-index: 1;
+                @include sm-md-device(){
+                    top: 97%; 
+                 }
+                a{
+                    span{
+                        width: 40px;
+                        height: 40px;
+                        background-color: white;
+                        color: black;
+                        display: inline-block;
+                        font-size: 20px;
+                        border-radius: 50%;
+                        line-height: 47px;
+                        text-align: center;
+                        position: relative;
+                        
+                       
+                        &:before{
+                            content:'';
+                            position:absolute ;
+                            width: 40px;
+                            height: 40px;
+                            background: $secondaryColor;
+                            border-radius: 50%;
+                            top: 0;
+                            left: 0px;
+                           
+                            transform: translateX(50%);
+                            z-index: -1;
+                            animation: wave 3s linear infinite forwards;
+        
+        
+                        }
+                        }
+                }
+                
+            }
+
+        }
+    }
+
+}
+@keyframes wave {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+//Our Story Ends
+
+// Customer Service Starts
+#customerService{
+    
+  
+    .option{
+        box-shadow: 0px 0px 50px 0px rgba(21, 26, 50, 0.10);
+        background-color: #fff;
+        padding: 20px;
+        padding-top: 30px;
+        
+        margin-top: 80px;
+        
+        @include md-device(){
+            padding: 10px;
+            padding-top: 10px;
+        }
+    
+        ul{
+            li{
+                display: inline-block;
+                border-right: 4px solid #F1F1F1;
+                margin-right: 15px;
+                .option_img {
+                    width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        line-height: 75px;
+                        background-color: $secondaryColor;
+                        align-items: center; 
+                         
+                        @include md-device(){
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            img{
+                                width: 22px;
+                                text-align: center;
+    
+                            }
+                        }
+    
+    
+                }
+                .option_text{
+                    
+                    h5{
+                        font-size: 18px;
+                        
+                        font-weight: 600;
+                        @include md-device(){
+                            font-size: 10px;
+                        }
+                    }
+                    p{
+                        font-family: $secondaryFont;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        @include md-device(){
+                           font-size: 8px;
+                        }
+                        span{
+                            color: $secondaryColor;
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+
+}
+//Customer Service Ends
+
+//leadership starts
+#leadership{
+    padding: 40px 0;
+    
+    h3{
+        text-align: center;
+        color: $primaryColor;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 43px;
+        @include sm-md-device(){
+            font-size: 26px;
+        }
+    }
+    .leadershipCard{
+        padding: 0 15px;
+        .ls_img {
+            position: relative;
+            img{
+                width: 100%;
+            }
+            
+            
+            
+            
+        }
+      
+    }
+    .ls_text{
+        text-align: center;
+        padding: 20px 0;
+        
+        a{
+            text-decoration: none;
+            color: $primaryColor;
+            h5{
+                color: $primaryColor;
+                font-size: 18px;
+                font-weight: 600;
+                text-decoration: none;
+    
+            }
+            p{
+                color: $secondaryColor;
+            }
+           
+        }
+        span{
+            ul{
+                margin-left: -33px;
+                li{
+                    display: inline-block;
+                    text-align: center;
+                    a{
+                        color: $primaryColor;
+                        &:hover{
+                            color: $secondaryColor;
+                        }
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .arrows{
+        .leftArrow{
+            position:absolute;
+            top: 26%;
+            left: 12px;
+            background-color: rgb(158, 29, 29);
+            color: white;
+            width: 38px;
+            height: 50px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 57px;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+        .rightArrow{
+            position:absolute;
+            top: 26%;
+            right: 12px;
+            background-color: rgb(158, 29, 29);
+            color: white;
+            width: 38px;
+            height: 50px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 57px;
+            border-radius: 50%;
+            opacity: 0.5;
+
+        }
+    }
+}
+//leadership ends
+
+//Customer Starts here
+#customer{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgb(250, 246, 246);
+    .customer_slide{
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    
+    height: 500px;
+    background-color: #fff;
+    .customer_cont{
+        .customer_text{
+            text-align: center;
+          
+           transform: translateY(203%);
+            
+            
+           
+          
+            
+            p{
+                font-family: $secondaryFont;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                color: #444;
+                text-align: center;
+    
+            }
+            h4{
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                margin-left: 7%;
+            }
+            .paraColor{
+                font-family: $secondaryFont;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                color: $secondaryColor;
+                text-align: center;
+                margin-left: 7%;
+            }
+         }
+    }
+
+     
+
+    }
+    .banner-dots{
+        text-align: center;
+        margin-top: 20px;
+   
+    li{
+        display: inline-block;
+        button{
+            width: 15px;
+            height: 10px;
+            background-color: #bdbdbd;
+            border: none;
+            border-radius: 20px;
+            color: transparent;
+            margin-right: 15px;
+            transition: 0.35s;
+        }
+        &.slick-active button{
+            width: 30px;
+            background-color: $secondaryColor;
+        }
+    }
+    
+    }
+    
+
+
+}
+//Customer Ends here
+
+// PROBLEM
+
+// Aytor Instagram Starts
+
+//Aytor Instagram Ends
+
+#Aboutfooter{
+    background-color: $thirdColor;
+   
+    padding: 20px;
+    
+    display: none;
+    @include sm-device(){
+        display: block;
+    }
+
+    .newsLtr_para{
+        h3{
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            color: #fff;
+        }
+        p
+        {
+            color: #fff;
+            font-family: $secondaryFont;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+        }
+       
+    }
+
+
+
+    form{
+        margin-top: 23px;
+        position: relative;
+        input{
+            padding: 10px;
+            font-size: 12px;
+            font-weight: $secondaryFont;
+            // RESPONSIVE
+            @include custom_device(991px,1399px){
+                font-size: 10px;
+            }
+        }
+        button{
+            padding: 10px 13px;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            background-color: $secondaryColor;
+            position: absolute;
+            top: 0;
+            right:34px;
+            border: none;
+            @include md-device() {
+                right: 44px;
+            }
+            }
+    }
+    .footer_content{
+        .AytorLogo{
+            img{
+                margin-top: 50%;
+            }
+        }
+        .myAccount{
+            h4{
+                color: #fff;
+                
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 20px;
+                margin-left: 9px;
+               
+            }
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                        font-family: $secondaryFont;
+                        font-size: 10px;
+                        font-weight: 400;
+    
+                    color: #fff;
+                    &:hover{
+                        color: $secondaryColor;
+                    }
+                   
+                    }
+                }
+            }
+        }
+    
+        .support{
+            h4{
+                color: #fff;
+                
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 20px;
+                margin-left: -7px;
+              
+            }
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                        font-family: $secondaryFont;
+                        font-size: 9.5px;
+                        font-weight: 400;
+                        color: #fff;
+                    &:hover{
+                        color: $secondaryColor;
+                    }
+                   
+                }
+                }
+            }
+        }
+    
+        .openingTime{
+                
+            h4{
+                color: #fff;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                margin-left: 28px;
+                margin-bottom: 20px;
+                
+    
+            }
+            .week, .time{
+                display: inline-block;
+                font-family: $secondaryFont;
+                font-size: 8px;
+               
+              
+                ul{
+                    display: inline-block;
+                    padding-right: 15px;
+                   
+                    li{
+                        padding-bottom: 7px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .contactUs{
+            margin-left: -52px;
+            h4{
+                color: #fff;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                margin-left: 28px;
+                margin-bottom: 20px;
+    
+            }
+            ul{
+                li
+                {
+                  color: #fff;
+                  font-family: $secondaryFont;
+                    font-size: 8px;
+                    font-style: normal;
+                    font-weight: 400;
+                  span{
+                    
+                    color: $secondaryColor;
+                  }
+                  a{
+                    text-decoration: none;
+                    color: #fff;
+                    text-align: right;
+                    font-size: 8px;
+                  }
+                }
+            }
+        }
+    
+
+    }
+    
+
+
+
+
+    
+}
